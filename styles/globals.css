@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+#__next {
+  @apply h-screen;
+  overflow-y: scroll;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: Poppins, system-ui, sans-serif;
+}
